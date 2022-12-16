@@ -21,6 +21,8 @@ public class DbUtil {
 		
 		try {
 			conn= DriverManager.getConnection(url,"root","Adeep");
+			
+		
 		} catch (SQLException e) {
 			
 			e.printStackTrace();
